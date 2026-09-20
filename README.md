@@ -1,10 +1,24 @@
-# 🎬 VietCut - High-Performance AI-Powered Desktop Video Editor
+<p align="center">
+  <a href="https://github.com/maiductuan/vietcut">
+    <img src="assets/logo.png" alt="VietCut Logo" width="130" style="border-radius: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);">
+  </a>
+</p>
 
-[![Release](https://img.shields.io/github/v/release/maiductuan/vietcut?style=flat-square&color=cyan)](https://github.com/maiductuan/vietcut/releases)
-[![Downloads](https://img.shields.io/github/downloads/maiductuan/vietcut/total?style=flat-square&color=brightgreen)](https://github.com/maiductuan/vietcut/releases)
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue?style=flat-square)](https://github.com/maiductuan/vietcut/releases)
-[![Built with Rust](https://img.shields.io/badge/built%20with-Rust%20%7C%20Tauri%20v2-orange?style=flat-square)](https://tauri.app/)
-[![License](https://img.shields.io/badge/license-MIT%20%2F%20Free-green?style=flat-square)](#)
+<h1 align="center">VietCut</h1>
+
+<p align="center">
+  <strong>High-Performance AI-Powered Desktop Video Editor</strong>
+  <br>
+  <em>Built with Rust, Tauri v2, React, and FFmpeg GPU Acceleration</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/maiductuan/vietcut/releases"><img src="https://img.shields.io/github/v/release/maiductuan/vietcut?style=flat-square&color=cyan" alt="Release"></a>
+  <a href="https://github.com/maiductuan/vietcut/releases"><img src="https://img.shields.io/github/downloads/maiductuan/vietcut/total?style=flat-square&color=brightgreen" alt="Downloads"></a>
+  <a href="https://github.com/maiductuan/vietcut/releases"><img src="https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue?style=flat-square" alt="Platform"></a>
+  <a href="https://tauri.app/"><img src="https://img.shields.io/badge/built%20with-Rust%20%7C%20Tauri%20v2-orange?style=flat-square" alt="Rust"></a>
+  <a href="#"><img src="https://img.shields.io/badge/license-MIT%20%2F%20Free-green?style=flat-square" alt="License"></a>
+</p>
 
 > **VietCut** is a blazing-fast, lightweight, and privacy-focused desktop video editor built with **Rust**, **Tauri v2**, **React**, and **FFmpeg Hardware Acceleration**. Designed for creators worldwide, it brings state-of-the-art local AI features directly to your PC—without cloud latency, subscription fees, or data leaks.
 
