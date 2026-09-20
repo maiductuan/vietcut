@@ -1,126 +1,52 @@
-<div align="center">
+# 🎬 VietCut - Trình Dựng Video & Phụ Đề AI Cho Người Việt
 
-<img src="logo.png" alt="VietCut - Lightweight Fast Video Editor for Windows" width="160" />
+[![Release](https://img.shields.io/github/v/release/maiductuan/vietcut?style=flat-square&color=cyan)](https://github.com/maiductuan/vietcut/releases)
+[![Downloads](https://img.shields.io/github/downloads/maiductuan/vietcut/total?style=flat-square&color=brightgreen)](https://github.com/maiductuan/vietcut/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-blue?style=flat-square)](https://github.com/maiductuan/vietcut/releases)
+[![License](https://img.shields.io/badge/license-Free-orange?style=flat-square)](#)
 
-# VietCut 🎬
-### Ultra-Fast, Lightweight & Privacy-First Video Editor for Windows
-
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20(64--bit)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/maiductuan/vietcut/raw/main/VietCut.msi)
-[![Version](https://img.shields.io/badge/Release-v0.1.1-2EA44F?style=for-the-badge&logo=github)](https://github.com/maiductuan/vietcut/raw/main/VietCut.msi)
-[![Binary Size](https://img.shields.io/badge/Download_Size-%3C10_MB-8A2BE2?style=for-the-badge)](https://github.com/maiductuan/vietcut/raw/main/VietCut.msi)
-[![License](https://img.shields.io/badge/License-Free-brightgreen?style=for-the-badge)](https://github.com/maiductuan/vietcut/raw/main/VietCut.msi)
-[![Offline](https://img.shields.io/badge/Privacy-100%25_Offline-blueviolet?style=for-the-badge)](https://github.com/maiductuan/vietcut/raw/main/VietCut.msi)
-
-<p align="center">
-  <b>A modern, bloat-free desktop video editing software powered by Rust, Tauri v2, and FFmpeg.</b><br>
-  No watermarks. No subscriptions. No mandatory cloud accounts. 100% local processing.
-</p>
-
-[**📥 Download Installer (.msi)**](https://github.com/maiductuan/vietcut/raw/main/VietCut.msi) • 
-[**⚡ Download Portable (.exe)**](https://github.com/maiductuan/vietcut/raw/main/VietCut.exe) • 
-[**✨ Features**](#-key-features) • 
-[**🚀 Quick Start**](#-installation--quick-start)
+> **VietCut** là phần mềm dựng video chuyên nghiệp, nhẹ, tối ưu hoá cho người Việt. Tích hợp công nghệ AI nhận diện giọng nói tiếng Việt chuẩn xác để tự động tạo phụ đề và loại bỏ tạp âm hoàn toàn trên máy tính cá nhân (100% Offline, bảo mật tối đa).
 
 ---
 
-</div>
+## ✨ Điểm Nổi Bật
 
-## 📥 Downloads (Windows 64-bit)
-
-Get the latest official release directly from GitHub:
-
-| Package | Format | File Size | Direct Download |
-| :--- | :---: | :---: | :--- |
-| **Windows Installer (Recommended)** | `.msi` | **~3.2 MB** | [⬇️ **Download VietCut.msi**](https://github.com/maiductuan/vietcut/raw/main/VietCut.msi) |
-| **Portable Executable (Standalone)** | `.exe` | **~5.6 MB** | [⬇️ **Download VietCut.exe**](https://github.com/maiductuan/vietcut/raw/main/VietCut.exe) |
-
-> 💡 *Both packages are fully self-contained. No bundled adware, no telemetry, and completely free of bloat.*
+- **🔒 100% Offline & Riêng Tư**: Toàn bộ video, âm thanh và dự án được xử lý trực tiếp trên máy của bạn. Không bao giờ upload video lên đám mây.
+- **🎯 Chuẩn Xác 100% (WYSIWYG)**: Mọi thao tác cắt ghép, chỉnh màu sắc, font chữ và hiệu ứng chuyển cảnh bạn nhìn thấy trên màn hình Preview sẽ được xuất ra đúng 100% qua bộ engine FFmpeg.
+- **🤖 Phụ Đề Tự Động Tiếng Việt**: Tự động nghe và bóc băng phụ đề tiếng Việt với độ chính xác cao nhờ mô hình AI Whisper chạy cục bộ.
+- **🎙️ Tách Giọng Nói & Khử Tạp Âm**: Tách giọng hát, giọng đọc và tiếng ồn xung quanh trong 1 click.
+- **⚡ Xuất Video Siêu Tốc**: Tận dụng tối đa card đồ họa phần cứng (NVIDIA NVENC, Intel QSV, AMD AMF) để render video 1080p / 4K mượt mà.
 
 ---
 
-## ⚡ Why VietCut?
+## 📥 Tải Về & Cài Đặt
 
-Most modern video editors are bundled with heavy Electron runtimes, consuming hundreds of megabytes of RAM and bloating installer sizes past 300MB+. 
+Bấm vào link bên dưới để tải bản cài đặt mới nhất cho Windows:
 
-**VietCut** is built from the ground up using **Rust and Tauri v2**:
-- **Tiny Download**: Sub-10MB package size vs. 300MB+ for typical desktop editors.
-- **Instant Launch**: Starts up in milliseconds with near-zero idle RAM footprint.
-- **Hardware-Accelerated Rendering**: Integrated native FFmpeg engine utilizing modern GPU pipelines.
-- **Privacy-First**: Your video files and personal data never leave your computer.
+👉 **[Tải VietCut v0.1.1 (Bộ cài đặt Windows .MSI)](https://github.com/maiductuan/vietcut/releases/latest)**
 
----
-
-## ✨ Key Features
-
-### 🎯 100% WYSIWYG Rendering (What-You-See-Is-What-You-Get)
-- Guaranteed 1:1 parity between canvas preview and final rendered video.
-- Exact aspect ratio scaling (`cover` vs. `contain`), crop geometry, subtitle positioning, and transition timing.
-
-### 🎞️ Multi-Track Timeline Editing
-- **Multi-layer Composition**: Freely slice, split, trim, ripple-delete, and reorder video, image, and audio clips.
-- **Picture-in-Picture (PiP)**: Stack overlay tracks with custom scale, rotation, and coordinate positioning.
-- **Snap & Magnetic Scrubbing**: Fluid playhead scrubbing with real-time frame-accurate feedback.
-
-### 🎨 Color Grading & Cinematic Filters
-- Adjust Brightness, Contrast, Saturation, and Hue (-180° to +180°) with instant GPU shader preview.
-- One-click presets: Black & White, Vintage, Glitch, Blur, Mirror, Retro VHS, and more.
-
-### 📝 Dynamic Subtitles & Typography
-- Full ASS-based subtitle styling: rotate (`\frz`), scale (`\fscx\fscy`), custom font families, backdrop boxes, and layer hierarchies.
-- Pixel-perfect proportional scaling across all canvas resolutions.
-
-### 🔀 Smooth Transitions & Audio Control
-- Built-in transitions: Crossfade, Dissolve, Dip to Black, Dip to White, Wipe Left, Blur In, Zoom In.
-- Independent per-track Volume, Mute, and Hide toggles with exact audio stream synchronization.
+### Hướng dẫn cài đặt:
+1. Tải file `VietCut_0.1.1_x64.msi` về máy.
+2. Nhấp đúp vào file để tiến hành cài đặt theo hướng dẫn trên màn hình.
+3. Mở ứng dụng **VietCut** từ màn hình Desktop hoặc menu Start và bắt đầu sáng tạo!
 
 ---
 
-## 🚀 Installation & Quick Start
+## 💻 Yêu Cầu Hệ Thống
 
-### Option 1: Standard Windows Installer (`.msi`)
-1. Download [**VietCut.msi**](https://github.com/maiductuan/vietcut/raw/main/VietCut.msi).
-2. Double-click the file to launch the setup wizard.
-3. Once completed, launch **VietCut** from your Desktop shortcut or Start Menu.
-
-### Option 2: Portable Executable (`.exe`)
-1. Download [**VietCut.exe**](https://github.com/maiductuan/vietcut/raw/main/VietCut.exe).
-2. Move it to any folder of your choice (e.g., `C:\Tools\VietCut`).
-3. Double-click to run immediately without installation.
-
----
-
-### 🛡️ Windows SmartScreen Notice
-Since VietCut is an independent community project released without an expensive Microsoft EV code-signing certificate, Windows Defender SmartScreen may show a blue prompt on first launch:
-
-```text
-Windows protected your PC
-Microsoft Defender SmartScreen prevented an unrecognized app from starting.
-```
-
-👉 **How to proceed safely**:
-1. Click on **More info** (*Thông tin thêm*).
-2. Click **Run anyway** (*Vẫn chạy*).
-
----
-
-## 💻 System Requirements
-
-| Specification | Minimum | Recommended |
+| Thành phần | Cấu hình tối thiểu | Cấu hình đề nghị |
 | :--- | :--- | :--- |
-| **Operating System** | Windows 10 (64-bit) Version 1809+ | Windows 11 (64-bit) |
-| **Processor** | Intel Core i3 / AMD Ryzen 3 or equivalent | Intel Core i5 / AMD Ryzen 5 or higher |
-| **RAM** | 4 GB | 8 GB or more |
-| **Storage** | 100 MB free disk space | 500 MB+ SSD |
-| **Runtime** | Microsoft Edge WebView2 (Pre-installed on Win 10/11) | WebView2 Evergreen |
+| **Hệ điều hành** | Windows 10 / 11 (64-bit) | Windows 10 / 11 (64-bit) |
+| **Bộ xử lý (CPU)** | Intel Core i3 / AMD Ryzen 3 | Intel Core i5 / AMD Ryzen 5 trở lên |
+| **Bộ nhớ (RAM)** | 4 GB | 8 GB trở lên |
+| **Dung lượng trống** | 2 GB | 5 GB (SSD) |
+| **Card đồ họa (GPU)** | Đồ họa tích hợp Intel HD Graphics | NVIDIA GTX 1050 / AMD RX 560 trở lên |
 
 ---
 
-## 🌐 SEO & Community Keywords
-
-`free video editor` • `windows video editor` • `lightweight video editing software` • `rust video editor` • `tauri v2` • `ffmpeg desktop editor` • `capcut alternative windows` • `no watermark video editor` • `offline video editor` • `fast video cutter` • `vietcut desktop`
+## 💬 Hỗ Trợ & Đóng Góp Ý Kiến
+Nếu bạn gặp vấn đề trong quá trình sử dụng hoặc muốn đề xuất tính năng mới, vui lòng mở một thẻ [Issues](https://github.com/maiductuan/vietcut/issues).
 
 ---
 
-<div align="center">
-  <sub>Built with ❤️ for content creators and video editors worldwide.</sub>
-</div>
+*Phát triển với ❤️ dành cho cộng đồng sáng tạo nội dung Việt Nam.*

@@ -1,0 +1,17 @@
+{
+  "min_version_required": "0.1.0",
+  "announcement": {
+    "show": false,
+    "id": "announcement_01",
+    "title": "Chào mừng đến với VietCut!",
+    "message": "Trình dựng video & tạo phụ đề AI miễn phí dành cho người Việt.",
+    "action_url": "https://github.com/maiductuan/vietcut/releases",
+    "action_text": "Xem bản cập nhật"
+  },
+  "features": {
+    "ai_subtitles": true,
+    "voice_isolation": true,
+    "text_to_speech": true,
+    "export_4k": true
+  }
+}

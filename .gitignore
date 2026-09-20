@@ -1,4 +1,27 @@
-*.tmp
+# Chặn rò rỉ mã nguồn vào repo public
+*.rs
+*.ts
+*.tsx
+*.py
+*.pyc
+*.env*
 *.log
-.DS_Store
-Thumbs.db
+*.tmp
+*.bak
+Cargo.toml
+Cargo.lock
+package.json
+package-lock.json
+tsconfig*.json
+vite.config.*
+
+# Chặn thư mục source code
+src/
+src-tauri/
+scripts/
+models/
+node_modules/
+dist/
+build/
+.vscode/
+.agents/
