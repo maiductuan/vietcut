@@ -1,13 +1,13 @@
-{
-  "version": "0.1.1",
-  "release_date": "2026-09-20",
-  "download_url": "https://github.com/maiductuan/vietcut/releases/download/v0.1.1/VietCut_0.1.1_x64.msi",
-  "changelog": [
-    "Khởi tạo phiên bản VietCut Desktop v0.1.1",
-    "Trình dựng video đa track (Multi-track Video & Audio Timeline)",
-    "Bộ lọc màu sắc và hiệu ứng chuyển cảnh thời gian thực (WYSIWYG 100%)",
-    "Tạo phụ đề tự động nhận dạng giọng nói tiếng Việt bằng AI Local",
-    "Tách âm thanh và loại bỏ tạp âm (Voice Isolation) hoàn toàn offline",
-    "Xuất video siêu tốc với FFmpeg Hardware Acceleration (NVIDIA / Intel / AMD)"
-  ]
+﻿{
+    "download_url":  "https://github.com/maiductuan/vietcut/releases/download/v0.1.1/VietCut_0.1.1_x64.msi",
+    "changelog":  [
+                      "Phat hanh VietCut Desktop v0.1.1",
+                      "Trinh dung video da track va xem truoc thoi gian thuc (WYSIWYG 100%)",
+                      "Tao phu de tu dong tieng Viet bang AI Local (Whisper)",
+                      "Tach am thanh va loc tap am hoan toan Offline",
+                      "Xuat video sieu toc voi FFmpeg Hardware Acceleration"
+                  ],
+    "sha256":  "811E4C9E3B5E54116BC797788E647B17D2F5E1B02998A2906241E3AAC637CB09",
+    "version":  "0.1.1",
+    "release_date":  "2026-09-20"
 }
